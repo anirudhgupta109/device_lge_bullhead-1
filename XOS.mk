@@ -3,7 +3,7 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # Inherit some common XOS stuff.
-$(call inherit-product, vendor/xos/config/common_full_phone.mk)
+$(call inherit-product, vendor/xos/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
