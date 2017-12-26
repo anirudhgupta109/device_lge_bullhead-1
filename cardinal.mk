@@ -3,13 +3,13 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # Inherit some common XOS stuff.
-$(call inherit-product, vendor/xos/config/common.mk)
+$(call inherit-product, vendor/cardinal/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := XOS_bullhead
+PRODUCT_NAME := cardinal_bullhead
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 5X
 TARGET_MANUFACTURER := LGE
